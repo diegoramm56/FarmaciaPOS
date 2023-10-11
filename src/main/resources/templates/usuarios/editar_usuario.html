@@ -14,11 +14,14 @@
             </div>
             <div class="form-group">
                 <label for="contrasena">Contraseña</label>
-                <input th:field="*{contraseña}" id="contrasena" type="password" class="form-control" placeholder="Contraseña">
+                <input th:field="*{contrasena}" id="contrasena" type="password" class="form-control" placeholder="Contraseña">
             </div>
             <div class="form-group">
                 <label for="tipoUsuario">Tipo de Usuario</label>
-                <input th:field="*{tipoUsuario}" id="tipoUsuario" type="text" class="form-control" placeholder="Tipo de Usuario">
+                <select th:field="*{tipoUsuario}" id="tipoUsuario" class="form-control">
+                    <option value="Administrador">Administrador</option>
+                    <option value="Vendedor">Vendedor</option>
+                </select>
             </div>
             <button class="btn btn-success" type="submit">Guardar Cambios</button>
         </form>
