@@ -1,5 +1,4 @@
-ntacto:   https://parzibyte.me/blog/contacto/
-*/
+
 package me.parzibyte.sistemaventasspringboot;
 
 import org.springframework.boot.SpringApplication;
